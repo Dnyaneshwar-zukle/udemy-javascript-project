@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("Hello, Welcome to the shoping app");
+        console.log("Let's Create Account");
+        var username = prompt("please create username: ");
+        var password = prompt("please create password: ");
+        console.log("thank you your account have been created");
+        
+        console.log("PLease enter your login information");
+        var tryuser =  prompt("Please create a Username: ");
+        var trypass =  prompt("Please create a Password: ");
+
+        while(username!=tryuser && password != trypass){
+            console.log("wrong username or password please try aganin");
+            var tryuser = promt("Enter Your username");
+            var trypass = promt("Enter Your password");
+        }
+
+        console.log("you are now connected");
+
+        var balance = 10; 
+        console.log("Your current balance is  "+balance+" dollors");
+        var ql = promt("would you lile to add money to your account");
+       
+        if (q1=="yes"){
+           var q2 = promt("how much you like to add: "); 
+           var balance = balance + Number(q2);
+           console.log("your new balance is  " + balance + " dollors")
+        }
+         else{
+            console.log("greate");
+       } 
+</script>
+</body>
+</html>
